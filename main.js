@@ -15,7 +15,7 @@ function weeklyLimit(screen) {
 // billing/model provider, so two Codex sessions are one OpenAI card, not two.
 const PROVIDERS = {
   codex: { id: "openai", name: "OpenAI" },
-  traecli: { id: "bytedance", name: "ByteDance" },
+  // Add only verified agent-CLI → provider quota mappings here.
 };
 const providerOf = (agent) => PROVIDERS[agent.app] ?? null;
 

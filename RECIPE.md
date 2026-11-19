@@ -6,7 +6,7 @@ A compact status-bar mod that shows one quota card for each model/billing provid
 
 At the bottom of the workspace, the existing machine name and total agent count remain on the left. To their right is a horizontally scrollable row of small cards. Each card has a status-colored dot, a provider name, and its weekly quota status. It follows the active Herdr theme. In an Islands layout the card has no top divider.
 
-Known mappings are OpenAI for Codex and ByteDance for Trae CLI. Multiple agents using the same provider produce one card. Pi produces no card. A provider whose CLI does not expose a weekly quota says `not reported`.
+The built-in mapping is OpenAI for Codex. Add another mapping only after verifying that its quota belongs to a specific provider. Multiple agents using the same provider produce one card. Pi produces no card. A provider whose CLI does not expose a weekly quota says `not reported`.
 
 ## How it behaves
 

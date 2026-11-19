@@ -4,7 +4,7 @@ One compact status-bar card per model/billing provider, rather than one per agen
 
 ## What it does
 
-- Groups local Codex sessions under **OpenAI** and Trae CLI sessions under **ByteDance**.
+- Groups local Codex sessions under **OpenAI**; add verified provider mappings as needed.
 - Excludes Pi because Pi is an agent host, not a provider.
 - Queries the local Codex app server for the longest available weekly rate-limit window.
 - Refreshes when Herdr focus or agent data changes, with a 12-minute fallback refresh.
